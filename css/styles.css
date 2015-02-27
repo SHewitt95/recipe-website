@@ -1,0 +1,111 @@
+body { 
+    font: 18px/24px Helvetica, Arial, Tahoma, Verdana, sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 2;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 2.5;
+    padding-top: 100px
+}
+
+header {
+    background-color: #0AA5FF;
+    text-align: center;
+    width: 100%;
+    display: block;
+    line-height: .5;
+    position: fixed;
+    z-index: 1;
+}
+
+header li {
+    display: inline;
+    color: black;
+    font-size: 1.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;   
+}
+
+footer {
+    background-color: #0AA5FF;
+    width: 100%;
+    padding: 32px;
+}
+
+footer p cite {
+    font-style: italic;   
+}
+
+.circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.imgbox {
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 150px;
+}
+
+.imgbox img {
+    width: 200px;
+    display: block;
+    border-radius: 5%;
+}
+
+.textbox {
+    display: block;
+    padding: 20px;
+    position: absolute; 
+    left: 75px;
+    top: 210px;
+}
+
+.textbox p {
+    text-align: center;
+    border-radius: 5%;
+    width: 75%;
+    background-color: white;
+    padding: 3%;
+}
+
+.textbox ul {
+    text-align: left;
+    border-radius: 5%;
+    width: 75%;
+    background-color: white;
+    list-style-type: circle;
+    padding: 5%;
+}
+
+#cream {
+    color: white;   
+}
